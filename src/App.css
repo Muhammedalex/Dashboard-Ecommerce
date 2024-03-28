@@ -1,0 +1,117 @@
+:root{
+    --black : #212529;
+    --yellow : #ffd333;
+    --green : #47ad24;
+    --red : #e52e2e;
+    --purple :#826599;
+    --red-2 : #ed464d;
+    --border :#ced4da;
+}
+
+.body { 
+    font-family: Roboto , sans-serif;
+}
+
+.form-control{
+    box-shadow: none;
+    border-color: var(--border);
+}
+
+.trigger { padding: 0 24px;
+font-size: 18px;
+line-height: 64px;
+cursor: pointer;
+transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255 , 255 , 0.3);
+}
+
+.ant-layout{
+    min-height: 100vh;
+}
+.ant-layout-sider{
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
+    width: 250px !important;
+}
+.ant-layout-sider-collapsed{
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+}
+.logo{
+    background-color: #ffd333;
+    /* border-radius: 10px; */
+    margin: 0;
+    height: 64px;
+}
+.sm-logo{
+    display: none;
+}
+
+.ant-layout-sider-collapsed .lg-logo {
+    display: none;
+}
+.ant-layout-sider-collapsed .sm-logo {
+    display: block;
+}
+main{
+    overflow: scroll;
+    background-color: transparent !important;
+    height: 80vh !important;
+}
+main::-webkit-scrollbar{
+    width: 0px;
+}
+.ant-menu-title-content {
+    font-size: 16px !important;
+}
+/* p, h5{
+    margin: 0;
+    padding: 0;
+} */
+
+.ant-layout-header div .badge{
+    top:16px;
+    right: -6px;
+}
+/*   
+
+*/
+
+/* Admin Css End */
+
+/* Dashboard */
+.green {
+    color: var(--green);
+}
+
+.red {
+    color:var(--red);
+}
+/* Dashboard */
+
+
+
+/* quil text editor */
+
+.quill{
+    background-color: white;
+}
+
+/* quil end */
+
+.title , h3{
+    font-size: 28px;
+    font-family: Roboto !important;
+}
